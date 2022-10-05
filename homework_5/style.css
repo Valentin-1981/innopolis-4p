@@ -14,7 +14,7 @@
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     position: sticky;
-    top: 10px;
+    top: 19px;
     width: 65%;
     margin: 15px auto;
 }
@@ -44,7 +44,8 @@
 .container-2 {
     /* display: inline-block; */
     float: left;
-
+    border-right: 1px solid black;
+    padding-right: 4px;
 }
 
 .container-5 {
@@ -58,7 +59,7 @@
     font-size: 16pt;
     color: white;
     position: sticky;
-    top: 54px;
+    top: 70px;
 }
 
 .container-4 table {
@@ -75,4 +76,11 @@
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 15pt;
+}
+
+.wrapper-2 {
+    width: 292px;
+    top: 70px;
+    position: sticky;
+    height: 350px;
 }
