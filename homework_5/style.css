@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+}
+
+.container-1 {
+    width: 65%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.header-1 {
+    background-color: blue;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    position: sticky;
+    top: 10px;
+    width: 65%;
+    margin: 15px auto;
+}
+
+.container-2 a {
+    color: orange;
+    font-family: 'Roboto', sans-serif;
+    display: block;
+    font-size: 14pt;
+}
+
+.container-2 h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin-top: 0px;
+}
+
+.container-3 {
+    /* display: inline-block; */
+    height: 350px;
+    width: 2px;
+    border-left: 1px solid black;
+    margin-left: 5px;
+    float: left;
+}
+
+.container-2 {
+    /* display: inline-block; */
+    float: left;
+
+}
+
+.container-5 {
+    display: flex;
+}
+
+.letter {
+    background-color: blue;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16pt;
+    color: white;
+    position: sticky;
+    top: 54px;
+}
+
+.container-4 table {
+    width: 100%;
+}
+
+.container-4 {
+    /* max-width: 82%; */
+    float: left;
+    width: -webkit-fill-available;
+}
+
+.names {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 15pt;
+}
