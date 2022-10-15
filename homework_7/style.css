@@ -102,9 +102,9 @@
     margin-top: 42px;
 }
 
-@media screen and (max-width:780px) and (min-width:320px) {
+@media screen and (max-width:780px) and (min-width:100px) {
     .frame__form {
-        width: calc(748/768*100vw);
+        width: calc(728/768*100%);
         height: 600px;
         /* width: 100%; */
     }
@@ -147,6 +147,10 @@
 
     .frame__form-enter-submit>input {
         margin-top: 150px;
+    }
+
+    .form-example {
+        width: 100%;
     }
 
 }
