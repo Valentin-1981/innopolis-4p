@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+}
+
+.frame {
+    background-color: rgba(27, 36, 115, 1);
+    width: 79.5%;
+    height: 737px;
+    margin: 35px auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.frame__form {
+    width: 600px;
+    height: 412px;
+    background-color: #FFFFFF;
+    margin: 82px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.frame__form-enter {
+    display: block;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 50px;
+    color: #787878;
+    margin: 18px auto;
+
+}
+
+.frame__form-label {
+    display: block;
+    color: #787878;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    margin-top: 12px;
+}
+
+.frame__form-label-email {
+    margin-top: 0px;
+}
+
+.frame__form-enter-email>input,
+.frame__form-enter-password>input {
+    width: 510px;
+    height: 49px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.frame__form-enter-email>label,
+.frame__form-enter-password>label {
+    margin-bottom: 3px;
+}
+
+.frame__form-enter-checkbox>label {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+.frame__inner {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.frame__form-enter-checkbox {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.frame__form-enter-checkbox>label {
+    position: relative;
+    bottom: 1px;
+}
+
+.frame__form-enter-submit>input {
+    width: 180px;
+    height: 52px;
+    background-color: #1A226B;
+    color: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+}
+
+.frame__form-enter-submit>input {
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    margin-top: 42px;
+}
