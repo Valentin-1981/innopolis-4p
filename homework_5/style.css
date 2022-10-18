@@ -17,6 +17,7 @@
     top: 19px;
     width: 65%;
     margin: 15px auto;
+    z-index: 4;
 }
 
 .container-2 a {
@@ -59,7 +60,7 @@
     font-size: 16pt;
     color: white;
     position: sticky;
-    top: 70px;
+    top: 58px;
 }
 
 .container-4 table {
