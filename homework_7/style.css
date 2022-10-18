@@ -131,7 +131,8 @@ body {
 
 @media screen and (max-width:780px) and (min-width:100px) {
     .frame__form {
-        width: calc(728/768*100%);
+        width: calc(728/780*100%);
+        /* height: calc(600/780*100vw); */
         height: 600px;
         /* width: 100%; */
     }
