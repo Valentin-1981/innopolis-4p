@@ -59,7 +59,10 @@ body {
     width: 510px;
     height: 49px;
     border-radius: 10px;
-    font-size: 18px;
+    /* font-size: 18px; */
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+    font-weight: 500;
 }
 
 .frame__form-enter-email>label,
@@ -129,9 +132,9 @@ body {
     background-image: url('./check.svg');
 }
 
-@media screen and (max-width:780px) and (min-width:100px) {
+@media screen and (max-width:768px) and (min-width:100px) {
     .frame__form {
-        width: calc(728/780*100%);
+        width: calc(728/768*100%);
         /* height: calc(600/780*100vw); */
         height: 600px;
         /* width: 100%; */
