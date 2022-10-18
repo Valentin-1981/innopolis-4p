@@ -2,6 +2,7 @@
     "recommendations": [
         "vscodevim.vim",
         "box-of-hats.bemhelper",
-        "Zignd.html-css-class-completion"
+        "zignd.html-css-class-completion",
+        "ritwickdey.LiveServer"
     ]
 }

@@ -50,6 +50,9 @@
     float: left;
     border-right: 1px solid black;
     padding-right: 4px;
+    position: sticky;
+    top: 70px;
+    height: 248px;
 }
 
 .container-5 {
@@ -83,8 +86,17 @@
 }
 
 .wrapper-2 {
-    width: 292px;
+    width: 269px;
     top: 70px;
     position: sticky;
     height: 350px;
+}
+
+.wrapper-3 {
+    width: 82%;
+    height: 19px;
+    position: fixed;
+    top: 0px;
+    background: #fff;
+    z-index: 10;
 }
