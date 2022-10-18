@@ -137,7 +137,7 @@ body {
     }
 
     .frame {
-        width: 770px;
+        width: 100%;
     }
 
     .frame__form-enter-email {
