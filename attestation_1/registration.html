@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Document</title>
-        <link rel="stylesheet" href="style.css" type="text/css" />
+        <link rel="stylesheet" href="style_reg.css" type="text/css" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
@@ -64,7 +64,57 @@
                                     required
                                     placeholder="Введите пароль"
                                 />
+                                <label
+                                    class="frame__form-label"
+                                    for="password_submit"
+                                >
+                                    Подтверждение пароля:
+                                </label>
+                                <input
+                                    type="password"
+                                    name="password_submit"
+                                    id="password_submit"
+                                    required
+                                    placeholder="Подтвердите пароль"
+                                />
                             </div>
+
+                            <div class="sex__radio-button">
+                                <span>Пол</span>
+                                <div class="sex__radio-input">
+                                    <input
+                                        type="radio"
+                                        id="male"
+                                        name="radio"
+                                        value="male"
+                                        checked
+                                    />
+                                    <div class="radio-1"></div>
+                                    <label for="male">Мужчина</label>
+                                </div>
+                                <div class="sex__radio-input">
+                                    <input
+                                        type="radio"
+                                        id="female"
+                                        name="radio"
+                                        value="female"
+                                    />
+                                    <div class="radio-2"></div>
+                                    <label for="female">Женщина</label>
+                                </div>
+                            </div>
+
+                            <div class="about">
+                                <span class="about__span">О себе</span>
+                                <textarea
+                                    placeholder="Расскажите о себе..."
+                                    name="about_me"
+                                    id=""
+                                    cols="30"
+                                    rows="10"
+                                ></textarea>
+                            </div>
+
                             <div class="frame__form-enter-checkbox">
                                 <!-- <input type="checkbox" name="checkbox-1" id="checkbox-1" title="" placeholder=""> -->
                                 <input

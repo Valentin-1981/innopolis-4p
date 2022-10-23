@@ -30,11 +30,11 @@ body {
 
 .frame__form {
     width: 600px;
-    height: 380px;
+    height: 775px;
     background-color: #ffffff;
-    margin: 125px auto 0px auto;
+    margin: 40px auto 0px auto;
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: center;
     border-radius: 20px;
     flex-direction: column;
@@ -121,6 +121,66 @@ body {
     z-index: 19;
 }
 
+.sex__radio-button {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    align-items: flex-start;
+    width: -webkit-fill-available;
+    color: #787878;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    margin: 12px 0px 3px 0px;
+}
+
+.sex__radio-input > input {
+    position: absolute;
+    opacity: 0;
+    z-index: 9;
+}
+
+.sex__radio-input > input:checked + .radio-1,
+.sex__radio-input > input:checked + .radio-2 {
+    background-color: #787878;
+}
+
+.radio-1,
+.radio-2 {
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    border: 2px solid #787878;
+    border-radius: 50%;
+    z-index: 8;
+    /* padding: 2px; */
+}
+
+.about > span {
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    display: block;
+    margin-bottom: 3px;
+    color: #787878;
+}
+
+.about > textarea {
+    width: 510px;
+    height: 200px;
+    border-radius: 10px;
+    /* font-size: 18px; */
+    font-family: "Roboto", sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+    border: 2px solid #787878;
+}
+
+.about {
+    margin-top: 12px;
+}
+
 @media screen and (max-width: 830px) and (min-width: 769px) {
     .frame__header-left {
         display: flex;
@@ -144,6 +204,10 @@ body {
     .frame__header {
         min-width: 300px;
     }
+
+    /* .sex__radio-button {
+        width: 85%;
+    } */
 }
 
 .frame__form-enter {
@@ -335,6 +399,18 @@ body {
 
     .frame__header-link:nth-of-type(1) {
         margin-right: 15px;
+    }
+
+    .sex__radio-button {
+        width: 85%;
+    }
+
+    .about {
+        width: 85%;
+    }
+
+    .about > textarea {
+        width: 100%;
     }
 }
 
