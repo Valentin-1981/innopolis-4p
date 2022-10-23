@@ -5,6 +5,15 @@
         "dossantosgabriel.linux-cheatsheet",
         "yaegermun.cheater",
         "fnando.linter",
-        "brunoventura.sqltools-athena-driver"
+        "brunoventura.sqltools-athena-driver",
+        "msjsdiag.vscode-react-native",
+        "xabikos.javascriptsnippets",
+        "mgmcdermott.vscode-language-babel",
+        "ms-vscode.vscode-typescript-next",
+        "tabnine.tabnine-vscode",
+        "ms-vscode.js-atom-grammar",
+        "standard.vscode-standard",
+        "akamud.vscode-javascript-snippet-pack",
+        "sburg.vscode-javascript-booster"
     ]
 }

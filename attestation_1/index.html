@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css" type="text/css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <div class="wrapper-main">
+            <div class="frame__header">
+                <div class="frame__header-left">
+                    <img src="./1280px-IU_logo 1.png" alt="logo" />
+                    <span>PCS&nbsp;Frontend</span>
+                </div>
+                <div class="frame__header-links">
+                    <a class="frame__header-link" href="./reg.html">
+                        Регистрация
+                    </a>
+                    <a class="frame__header-link" href="./index.html">Вход</a>
+                </div>
+            </div>
+            <div class="frame">
+                <form action="" method="get" class="form-example">
+                    <div class="frame__form">
+                        <span class="frame__form-enter">Вход</span>
+                        <div class="frame__inner">
+                            <div class="frame__form-enter-email">
+                                <label
+                                    class="frame__form-label frame__form-label-email"
+                                    for="email"
+                                >
+                                    Email:
+                                </label>
+                                <input
+                                    type="email"
+                                    name="email"
+                                    id="email"
+                                    required
+                                    placeholder="Введите email"
+                                />
+                            </div>
+                            <div class="frame__form-enter-password">
+                                <label class="frame__form-label" for="password">
+                                    Пароль:
+                                </label>
+                                <input
+                                    type="password"
+                                    name="password"
+                                    id="password"
+                                    required
+                                    placeholder="Введите пароль"
+                                />
+                            </div>
+                            <div class="frame__form-enter-checkbox">
+                                <!-- <input type="checkbox" name="checkbox-1" id="checkbox-1" title="" placeholder=""> -->
+                                <input
+                                    class="checkbox-1"
+                                    type="checkbox"
+                                    name="check"
+                                    id="checkbox-1"
+                                />
+                                <div class="checkbox-2"></div>
+                                <label for="checkbox-1">
+                                    Я согласен получать обновления на почту
+                                </label>
+                            </div>
+                            <div class="frame__form-enter-submit">
+                                <input type="submit" value="Войти" />
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
